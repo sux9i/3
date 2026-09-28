@@ -7,11 +7,11 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	int dym;
 	float result;
-	puts("Введите количество целых дюймов для рассчета");
+	puts("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С†РµР»С‹С… РґСЋР№РјРѕРІ РґР»СЏ СЂР°СЃСЃС‡РµС‚Р°");
 	scanf_s("%d", &dym);
 	result = d * dym;
-	printf("%d англ.дюймов - это %.2f см\n", dym, result);
+	printf("%d Р°РЅРіР».РґСЋР№РјРѕРІ - СЌС‚Рѕ %.2f СЃРј\n", dym, result);
 	result = d2 * dym;
-	printf("%d исп.дюймов - это %.2f см\n", dym, result);
+	printf("%d РёСЃРї.РґСЋР№РјРѕРІ - СЌС‚Рѕ %.2f СЃРј\n", dym, result);
 
 }
