@@ -4,9 +4,9 @@ int main()
 {
 	float a, b;
 	setlocale(LC_ALL, "RUS");
-	puts("Введите а");
+	puts("Р’РІРµРґРёС‚Рµ Р°");
 	scanf_s("%f", &a);
-	puts("Введите b");
+	puts("Р’РІРµРґРёС‚Рµ b");
 	scanf_s("%f", &b);
 	printf("-----------------------------\n");
 	printf("|   a*b   |   a+b  |   a-b  |\n");
